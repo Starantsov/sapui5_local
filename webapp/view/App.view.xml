@@ -1,0 +1,10 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="simple-app.controller.View1" displayBlock="true">
+      <Page title="My App"/>
+      <Button
+        id="helloButton"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="Say Hello"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+</mvc:View>
